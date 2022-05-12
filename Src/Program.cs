@@ -44,6 +44,42 @@ namespace PM03
 
     }
 
+    // Создание массива указателей
+    public class Driver
+    {
+        int cntAutos;
+        public Auto[] Autos;
+
+        public Driver(int cntAutos)
+        {
+            this.cntAutos = cntAutos;
+            Autos = new Auto[cntAutos];
+        }
+
+        // Заполнение полей класса
+        public void Fill()
+        {
+            string marka;
+            string model;
+            string cena;
+            for (int i = 0; i < this.cntAutos; i++)
+            {
+                Console.WriteLine("Марка автомобиля:");
+                marka = Console.ReadLine();
+                Console.WriteLine("Модель автомобиля:");
+                model = Console.ReadLine();
+                Console.WriteLine("Цена автомобиля:");
+                cena = Console.ReadLine();
+                this.Autos[i] = new Auto(marka, model, cena);
+            }
+        }
+
+        public void Sort()
+        {
+            Array.Sort(this.Autos);
+        }
+
+     
 
     public class Program
     {
@@ -59,5 +95,6 @@ namespace PM03
         }
     }
 }
+
 
 
