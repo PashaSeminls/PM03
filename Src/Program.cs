@@ -79,7 +79,18 @@ namespace PM03
             Array.Sort(this.Autos);
         }
 
-     
+        // Запись результата программы в тестовый файл
+        public void PrintToFile()
+        {
+            using (StreamWriter file = new StreamWriter("Resultatprogrammi.txt", false, Encoding.UTF8))
+            {
+                foreach (Auto c in this.Autos)
+                {
+                    file.WriteLine(c.ToString());
+                }
+            }
+        }
+    }
 
     public class Program
     {
