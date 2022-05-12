@@ -1,0 +1,14 @@
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\bin\Debug\netcoreapp3.1\PM03.exe
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\bin\Debug\netcoreapp3.1\PM03.deps.json
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\bin\Debug\netcoreapp3.1\PM03.runtimeconfig.json
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\bin\Debug\netcoreapp3.1\PM03.runtimeconfig.dev.json
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\bin\Debug\netcoreapp3.1\PM03.dll
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\bin\Debug\netcoreapp3.1\PM03.pdb
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\obj\Debug\netcoreapp3.1\PM03.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\obj\Debug\netcoreapp3.1\PM03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\obj\Debug\netcoreapp3.1\PM03.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\obj\Debug\netcoreapp3.1\PM03.AssemblyInfo.cs
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\obj\Debug\netcoreapp3.1\PM03.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\obj\Debug\netcoreapp3.1\PM03.dll
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\obj\Debug\netcoreapp3.1\PM03.pdb
+C:\Users\PC\Desktop\ПМ03\Src\PM03\PM03\obj\Debug\netcoreapp3.1\PM03.genruntimeconfig.cache
