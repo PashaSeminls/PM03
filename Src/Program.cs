@@ -23,8 +23,27 @@ namespace PM03
             return string.Format("Марка автомобиля: {0}  Модель автомобиля: {1} Цена автомобиля: {2}", markaauto, modelauto, cenaauto);
         }
 
-  
-    
+        // Сортировка массива по 2 параметрам.
+        public int CompareTo(object o)
+        {
+            Auto c = o as Auto;
+            if (c != null)
+            {
+                int result = modelauto.CompareTo(c.modelauto);
+                if (result != 0)
+                {
+                    return result;
+                }
+                return cenaauto.CompareTo(c.cenaauto);
+            }
+            else
+            {
+                throw new Exception("К сожалению невозможно сравнить эти два объекта");
+            }
+        }
+
+    }
+
 
     public class Program
     {
